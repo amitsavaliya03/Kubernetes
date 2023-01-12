@@ -36,7 +36,25 @@ DB are often hosted outside of K8s cluster
 ![image](https://user-images.githubusercontent.com/47441976/212053215-1d683de2-da8a-45de-a6a2-be77e5f217db.png)
 
 
-##Benefits of K8s 
-- 
+#Benefits of K8s 
+- Replication is much easier
+- self healing of K8s
+- Smart scheduling
+- ![image](https://user-images.githubusercontent.com/47441976/212067100-a18c903c-91bc-4c21-bf96-5ef42bf4d911.png)
+etcd stores only K8s data and not application data.
+For disaster recovery we need to configure physical storage backup of etcd and take snapshot of etcd into physical storage.
+- ![image](https://user-images.githubusercontent.com/47441976/212067842-c71f0c08-dd38-413e-b917-6ef2445316c3.png)
+
+
+#Minikube and Kubectl
+-![image](https://user-images.githubusercontent.com/47441976/212069389-7386c771-e9e7-442a-9934-ab64edd45e19.png)
+![image](https://user-images.githubusercontent.com/47441976/212069826-ee0e337e-3063-47bc-a2b4-5b5ecce12d32.png)
+
+
+Link of Kubectl commands:
+https://gitlab.com/nanuchi/youtube-tutorial-series/-/blob/master/basic-kubectl-commands/cli-commands.md
+
+
+
 
 
